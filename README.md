@@ -32,12 +32,11 @@ cámara)
 la que hayas usado)*
 
 
-markdown# ProntoCheck 🕒📌
+# ProntoCheck 🕒📌
 
 **ProntoCheck** es una solución móvil nativa desarrollada en Swift para el 
 control de asistencia laboral en sitio. La aplicación permite gestionar el 
-alta y edición de empleados, automatizando el registro de entradas y 
-salidas mediante la validación combinada de ubicación geográfica (GPS) y 
+alta y edición de empleados, automatizando el registro de entradas ysalidas mediante la validación combinada de ubicación geográfica (GPS) y 
 captura fotográfica (Cámara), garantizando que el personal se encuentre 
 físicamente en los puntos autorizados.
 
@@ -52,7 +51,6 @@ coordenadas específicas para asegurar que el registro se realice
 capturar evidencia fotográfica al momento de checar entrada o salida.
 *   **Panel de Control Local:** Historial detallado y control riguroso de 
 las jornadas laborales registradas.
-
 ## 🛠️ Tecnologías y Herramientas Utilizadas
 
 *   **Lenguaje:** Swift
