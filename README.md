@@ -1,4 +1,4 @@
-# ProntoCheck 🕒📌
+## ProntoCheck 🕒📌
 
 **ProntoCheck** es una solución móvil nativa desarrollada en Swift para el 
 control de asistencia laboral en sitio. La aplicación permite gestionar el 
