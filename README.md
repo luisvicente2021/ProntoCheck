@@ -31,12 +31,6 @@ cámara)
 *   **Persistencia de Datos:** CoreData / SwiftData / UserDefaults *(Deja 
 la que hayas usado)*
 
-## 📱 Capturas de Pantalla / Demostración
-
-| Alta de Empleado | Registro de Entrada (GPS/Cámara) |
-| :---: | :---: |
-| ![Alta Empleados](screenshots/alta_empleado.png) | 
-![Checador](screenshots/marcar_asistencia.png) |
 
 markdown# ProntoCheck 🕒📌
 
