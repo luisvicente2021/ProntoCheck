@@ -7,18 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840497042FEF236300F558EF /* EmployeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840497032FEF236300F558EF /* EmployeView.swift */; };
+		840497062FEF23F600F558EF /* EmployeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840497052FEF23F600F558EF /* EmployeViewModel.swift */; };
+		840497082FEF246D00F558EF /* Employe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840497072FEF246D00F558EF /* Employe.swift */; };
+		8404970A2FEF25F700F558EF /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840497092FEF25F700F558EF /* ViewState.swift */; };
+		8404970C2FEF263E00F558EF /* EmpleadosRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404970B2FEF263E00F558EF /* EmpleadosRepository.swift */; };
+		8404970E2FF2E72200F558EF /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404970D2FF2E72200F558EF /* CameraView.swift */; };
+		840497102FF2F14F00F558EF /* FaceRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404970F2FF2F14F00F558EF /* FaceRecognitionService.swift */; };
+		840497122FF3064A00F558EF /* Facenet6.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 840497112FF3064900F558EF /* Facenet6.mlmodel */; };
+		840497142FF42A8B00F558EF /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840497132FF42A8B00F558EF /* CameraPreviewView.swift */; };
+		840497162FF42AC300F558EF /* FaceCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840497152FF42AC300F558EF /* FaceCaptureView.swift */; };
+		840497182FF42AE900F558EF /* FaceCameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840497172FF42AE900F558EF /* FaceCameraManager.swift */; };
 		842614632FEC20D80064CDE4 /* ProntoCheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842614622FEC20D80064CDE4 /* ProntoCheckApp.swift */; };
 		842614652FEC20D80064CDE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842614642FEC20D80064CDE4 /* ContentView.swift */; };
 		842614672FEC20DC0064CDE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842614662FEC20DC0064CDE4 /* Assets.xcassets */; };
 		8426146A2FEC20DC0064CDE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842614692FEC20DC0064CDE4 /* Preview Assets.xcassets */; };
+		842614732FEC21C50064CDE4 /* RelojView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842614722FEC21C50064CDE4 /* RelojView.swift */; };
+		842614792FEC23060064CDE4 /* RelojViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842614782FEC23050064CDE4 /* RelojViewModel.swift */; };
+		8426147B2FEEFD7B0064CDE4 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426147A2FEEFD7B0064CDE4 /* NetworkServiceProtocol.swift */; };
+		8426147D2FEEFDC70064CDE4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426147C2FEEFDC70064CDE4 /* NetworkService.swift */; };
+		842614812FEEFF8F0064CDE4 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842614802FEEFF8F0064CDE4 /* HTTPMethod.swift */; };
+		8450AF502FF5A90A00FA7B69 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450AF4F2FF5A90A00FA7B69 /* Coordinator.swift */; };
+		8450AF532FF5A9B400FA7B69 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450AF522FF5A9B400FA7B69 /* Extensions.swift */; };
+		8450AF552FF5AA8300FA7B69 /* PuntoAcceso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450AF542FF5AA8300FA7B69 /* PuntoAcceso.swift */; };
+		8450AF572FF5AB4800FA7B69 /* Asistencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450AF562FF5AB4800FA7B69 /* Asistencia.swift */; };
+		8450AF592FF5AB8B00FA7B69 /* AltaEmpleadoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450AF582FF5AB8B00FA7B69 /* AltaEmpleadoView.swift */; };
+		8450AF5B2FF5ABB500FA7B69 /* EditarEmpleadoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450AF5A2FF5ABB500FA7B69 /* EditarEmpleadoView.swift */; };
+		8450AF5D2FF5ABF100FA7B69 /* CrearEmpleadoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450AF5C2FF5ABF100FA7B69 /* CrearEmpleadoRequest.swift */; };
+		8450AF602FF5AEA800FA7B69 /* AdminLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450AF5F2FF5AEA800FA7B69 /* AdminLoginView.swift */; };
+		8450AF632FF5B01A00FA7B69 /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450AF622FF5B01A00FA7B69 /* AuthRepository.swift */; };
+		8450AF652FF5B04C00FA7B69 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450AF642FF5B04C00FA7B69 /* LoginRequest.swift */; };
+		8450AF682FF5B3BC00FA7B69 /* AdminLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450AF672FF5B3BC00FA7B69 /* AdminLoginViewModel.swift */; };
+		847C812D2FF4464000505804 /* RegistrarAsistenciaRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C812C2FF4464000505804 /* RegistrarAsistenciaRequest.swift */; };
+		847C812F2FF449FA00505804 /* AsistenciaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C812E2FF449FA00505804 /* AsistenciaRepository.swift */; };
+		847C81312FF44F9C00505804 /* PuntoAccesoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C81302FF44F9C00505804 /* PuntoAccesoRepository.swift */; };
+		847C81322FF4541E00505804 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426147E2FEEFE250064CDE4 /* Endpoint.swift */; };
+		847C81342FF4766A00505804 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C81332FF4766A00505804 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		840497032FEF236300F558EF /* EmployeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeView.swift; sourceTree = "<group>"; };
+		840497052FEF23F600F558EF /* EmployeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeViewModel.swift; sourceTree = "<group>"; };
+		840497072FEF246D00F558EF /* Employe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employe.swift; sourceTree = "<group>"; };
+		840497092FEF25F700F558EF /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
+		8404970B2FEF263E00F558EF /* EmpleadosRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadosRepository.swift; sourceTree = "<group>"; };
+		8404970D2FF2E72200F558EF /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		8404970F2FF2F14F00F558EF /* FaceRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRecognitionService.swift; sourceTree = "<group>"; };
+		840497112FF3064900F558EF /* Facenet6.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Facenet6.mlmodel; sourceTree = "<group>"; };
+		840497132FF42A8B00F558EF /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		840497152FF42AC300F558EF /* FaceCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCaptureView.swift; sourceTree = "<group>"; };
+		840497172FF42AE900F558EF /* FaceCameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCameraManager.swift; sourceTree = "<group>"; };
 		8426145F2FEC20D80064CDE4 /* ProntoCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProntoCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842614622FEC20D80064CDE4 /* ProntoCheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProntoCheckApp.swift; sourceTree = "<group>"; };
 		842614642FEC20D80064CDE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		842614662FEC20DC0064CDE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842614692FEC20DC0064CDE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		842614722FEC21C50064CDE4 /* RelojView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelojView.swift; sourceTree = "<group>"; };
+		842614782FEC23050064CDE4 /* RelojViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelojViewModel.swift; sourceTree = "<group>"; };
+		8426147A2FEEFD7B0064CDE4 /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		8426147C2FEEFDC70064CDE4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		8426147E2FEEFE250064CDE4 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		842614802FEEFF8F0064CDE4 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		8450AF4F2FF5A90A00FA7B69 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		8450AF522FF5A9B400FA7B69 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8450AF542FF5AA8300FA7B69 /* PuntoAcceso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuntoAcceso.swift; sourceTree = "<group>"; };
+		8450AF562FF5AB4800FA7B69 /* Asistencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asistencia.swift; sourceTree = "<group>"; };
+		8450AF582FF5AB8B00FA7B69 /* AltaEmpleadoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltaEmpleadoView.swift; sourceTree = "<group>"; };
+		8450AF5A2FF5ABB500FA7B69 /* EditarEmpleadoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarEmpleadoView.swift; sourceTree = "<group>"; };
+		8450AF5C2FF5ABF100FA7B69 /* CrearEmpleadoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrearEmpleadoRequest.swift; sourceTree = "<group>"; };
+		8450AF5F2FF5AEA800FA7B69 /* AdminLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginView.swift; sourceTree = "<group>"; };
+		8450AF622FF5B01A00FA7B69 /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		8450AF642FF5B04C00FA7B69 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		8450AF672FF5B3BC00FA7B69 /* AdminLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginViewModel.swift; sourceTree = "<group>"; };
+		847C812C2FF4464000505804 /* RegistrarAsistenciaRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarAsistenciaRequest.swift; sourceTree = "<group>"; };
+		847C812E2FF449FA00505804 /* AsistenciaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsistenciaRepository.swift; sourceTree = "<group>"; };
+		847C81302FF44F9C00505804 /* PuntoAccesoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuntoAccesoRepository.swift; sourceTree = "<group>"; };
+		847C81332FF4766A00505804 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +115,10 @@
 		842614612FEC20D80064CDE4 /* ProntoCheck */ = {
 			isa = PBXGroup;
 			children = (
-				842614622FEC20D80064CDE4 /* ProntoCheckApp.swift */,
-				842614642FEC20D80064CDE4 /* ContentView.swift */,
-				842614662FEC20DC0064CDE4 /* Assets.xcassets */,
+				8450AF4D2FF5A86A00FA7B69 /* App */,
+				8450AF4C2FF5A84300FA7B69 /* Resources */,
+				8450AF3B2FF599A400FA7B69 /* Features */,
+				8450AF372FF598C500FA7B69 /* Core */,
 				842614682FEC20DC0064CDE4 /* Preview Content */,
 			);
 			path = ProntoCheck;
@@ -65,6 +130,261 @@
 				842614692FEC20DC0064CDE4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8450AF372FF598C500FA7B69 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8450AF512FF5A99000FA7B69 /* Extensions */,
+				8450AF4E2FF5A8C000FA7B69 /* State */,
+				8450AF3A2FF5994700FA7B69 /* FaceRecognition */,
+				8450AF392FF5991100FA7B69 /* Location */,
+				8450AF382FF598D900FA7B69 /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8450AF382FF598D900FA7B69 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8426147A2FEEFD7B0064CDE4 /* NetworkServiceProtocol.swift */,
+				842614802FEEFF8F0064CDE4 /* HTTPMethod.swift */,
+				8426147E2FEEFE250064CDE4 /* Endpoint.swift */,
+				8426147C2FEEFDC70064CDE4 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8450AF392FF5991100FA7B69 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				847C81332FF4766A00505804 /* LocationManager.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		8450AF3A2FF5994700FA7B69 /* FaceRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				840497112FF3064900F558EF /* Facenet6.mlmodel */,
+				8404970F2FF2F14F00F558EF /* FaceRecognitionService.swift */,
+				840497152FF42AC300F558EF /* FaceCaptureView.swift */,
+				840497172FF42AE900F558EF /* FaceCameraManager.swift */,
+			);
+			path = FaceRecognition;
+			sourceTree = "<group>";
+		};
+		8450AF3B2FF599A400FA7B69 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				8450AF5E2FF5AE6900FA7B69 /* AdminLoginView */,
+				8450AF492FF59AEB00FA7B69 /* Reloj */,
+				8450AF452FF59A9500FA7B69 /* PuntosAcceso */,
+				8450AF412FF59A2D00FA7B69 /* Asistencia */,
+				8450AF3C2FF599AF00FA7B69 /* Empleados */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		8450AF3C2FF599AF00FA7B69 /* Empleados */ = {
+			isa = PBXGroup;
+			children = (
+				8450AF402FF59A0E00FA7B69 /* Views */,
+				8450AF3F2FF599FC00FA7B69 /* ViewModels */,
+				8450AF3E2FF599E800FA7B69 /* Repository */,
+				8450AF3D2FF599C100FA7B69 /* Models */,
+			);
+			path = Empleados;
+			sourceTree = "<group>";
+		};
+		8450AF3D2FF599C100FA7B69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				840497072FEF246D00F558EF /* Employe.swift */,
+				8450AF5C2FF5ABF100FA7B69 /* CrearEmpleadoRequest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8450AF3E2FF599E800FA7B69 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				8404970B2FEF263E00F558EF /* EmpleadosRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		8450AF3F2FF599FC00FA7B69 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				840497052FEF23F600F558EF /* EmployeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8450AF402FF59A0E00FA7B69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				840497032FEF236300F558EF /* EmployeView.swift */,
+				8450AF582FF5AB8B00FA7B69 /* AltaEmpleadoView.swift */,
+				8450AF5A2FF5ABB500FA7B69 /* EditarEmpleadoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8450AF412FF59A2D00FA7B69 /* Asistencia */ = {
+			isa = PBXGroup;
+			children = (
+				8450AF442FF59A6C00FA7B69 /* ViewModels */,
+				8450AF432FF59A5600FA7B69 /* Repository */,
+				8450AF422FF59A3800FA7B69 /* Models */,
+			);
+			path = Asistencia;
+			sourceTree = "<group>";
+		};
+		8450AF422FF59A3800FA7B69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				847C812C2FF4464000505804 /* RegistrarAsistenciaRequest.swift */,
+				8450AF562FF5AB4800FA7B69 /* Asistencia.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8450AF432FF59A5600FA7B69 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				847C812E2FF449FA00505804 /* AsistenciaRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		8450AF442FF59A6C00FA7B69 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8450AF452FF59A9500FA7B69 /* PuntosAcceso */ = {
+			isa = PBXGroup;
+			children = (
+				8450AF482FF59AD000FA7B69 /* ViewModels */,
+				8450AF472FF59AAF00FA7B69 /* Repository */,
+				8450AF462FF59AA000FA7B69 /* Models */,
+			);
+			path = PuntosAcceso;
+			sourceTree = "<group>";
+		};
+		8450AF462FF59AA000FA7B69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8450AF542FF5AA8300FA7B69 /* PuntoAcceso.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8450AF472FF59AAF00FA7B69 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				847C81302FF44F9C00505804 /* PuntoAccesoRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		8450AF482FF59AD000FA7B69 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8450AF492FF59AEB00FA7B69 /* Reloj */ = {
+			isa = PBXGroup;
+			children = (
+				8450AF4B2FF59B1D00FA7B69 /* Views */,
+				8450AF4A2FF59AF400FA7B69 /* ViewModels */,
+			);
+			path = Reloj;
+			sourceTree = "<group>";
+		};
+		8450AF4A2FF59AF400FA7B69 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				842614782FEC23050064CDE4 /* RelojViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8450AF4B2FF59B1D00FA7B69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8404970D2FF2E72200F558EF /* CameraView.swift */,
+				840497132FF42A8B00F558EF /* CameraPreviewView.swift */,
+				842614722FEC21C50064CDE4 /* RelojView.swift */,
+				8450AF4F2FF5A90A00FA7B69 /* Coordinator.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8450AF4C2FF5A84300FA7B69 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				842614662FEC20DC0064CDE4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8450AF4D2FF5A86A00FA7B69 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				842614642FEC20D80064CDE4 /* ContentView.swift */,
+				842614622FEC20D80064CDE4 /* ProntoCheckApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8450AF4E2FF5A8C000FA7B69 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				840497092FEF25F700F558EF /* ViewState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		8450AF512FF5A99000FA7B69 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8450AF522FF5A9B400FA7B69 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8450AF5E2FF5AE6900FA7B69 /* AdminLoginView */ = {
+			isa = PBXGroup;
+			children = (
+				8450AF662FF5B3A000FA7B69 /* ViewModel */,
+				8450AF612FF5AFFE00FA7B69 /* Repository */,
+				8450AF5F2FF5AEA800FA7B69 /* AdminLoginView.swift */,
+				8450AF642FF5B04C00FA7B69 /* LoginRequest.swift */,
+			);
+			path = AdminLoginView;
+			sourceTree = "<group>";
+		};
+		8450AF612FF5AFFE00FA7B69 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				8450AF622FF5B01A00FA7B69 /* AuthRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		8450AF662FF5B3A000FA7B69 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8450AF672FF5B3BC00FA7B69 /* AdminLoginViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +457,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847C812F2FF449FA00505804 /* AsistenciaRepository.swift in Sources */,
+				8450AF632FF5B01A00FA7B69 /* AuthRepository.swift in Sources */,
+				8450AF572FF5AB4800FA7B69 /* Asistencia.swift in Sources */,
+				840497082FEF246D00F558EF /* Employe.swift in Sources */,
+				840497102FF2F14F00F558EF /* FaceRecognitionService.swift in Sources */,
+				8404970E2FF2E72200F558EF /* CameraView.swift in Sources */,
+				8450AF682FF5B3BC00FA7B69 /* AdminLoginViewModel.swift in Sources */,
+				847C81312FF44F9C00505804 /* PuntoAccesoRepository.swift in Sources */,
+				840497062FEF23F600F558EF /* EmployeViewModel.swift in Sources */,
+				840497122FF3064A00F558EF /* Facenet6.mlmodel in Sources */,
+				847C81342FF4766A00505804 /* LocationManager.swift in Sources */,
+				8450AF552FF5AA8300FA7B69 /* PuntoAcceso.swift in Sources */,
+				8450AF502FF5A90A00FA7B69 /* Coordinator.swift in Sources */,
+				8404970A2FEF25F700F558EF /* ViewState.swift in Sources */,
 				842614652FEC20D80064CDE4 /* ContentView.swift in Sources */,
+				840497142FF42A8B00F558EF /* CameraPreviewView.swift in Sources */,
+				842614732FEC21C50064CDE4 /* RelojView.swift in Sources */,
+				840497182FF42AE900F558EF /* FaceCameraManager.swift in Sources */,
+				8404970C2FEF263E00F558EF /* EmpleadosRepository.swift in Sources */,
+				8426147B2FEEFD7B0064CDE4 /* NetworkServiceProtocol.swift in Sources */,
+				840497042FEF236300F558EF /* EmployeView.swift in Sources */,
+				847C812D2FF4464000505804 /* RegistrarAsistenciaRequest.swift in Sources */,
+				8450AF652FF5B04C00FA7B69 /* LoginRequest.swift in Sources */,
+				842614812FEEFF8F0064CDE4 /* HTTPMethod.swift in Sources */,
+				840497162FF42AC300F558EF /* FaceCaptureView.swift in Sources */,
+				8450AF5B2FF5ABB500FA7B69 /* EditarEmpleadoView.swift in Sources */,
+				8450AF532FF5A9B400FA7B69 /* Extensions.swift in Sources */,
+				8450AF5D2FF5ABF100FA7B69 /* CrearEmpleadoRequest.swift in Sources */,
 				842614632FEC20D80064CDE4 /* ProntoCheckApp.swift in Sources */,
+				842614792FEC23060064CDE4 /* RelojViewModel.swift in Sources */,
+				8450AF592FF5AB8B00FA7B69 /* AltaEmpleadoView.swift in Sources */,
+				8450AF602FF5AEA800FA7B69 /* AdminLoginView.swift in Sources */,
+				847C81322FF4541E00505804 /* Endpoint.swift in Sources */,
+				8426147D2FEEFDC70064CDE4 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +627,8 @@
 				DEVELOPMENT_TEAM = 63KDPU835H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Se utiliza la cámara para capturar el rostro del empleado y validar su asistencia.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Esta aplicación necesita tu ubicación para validar el punto de acceso.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +658,8 @@
 				DEVELOPMENT_TEAM = 63KDPU835H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Se utiliza la cámara para capturar el rostro del empleado y validar su asistencia.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Esta aplicación necesita tu ubicación para validar el punto de acceso.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
